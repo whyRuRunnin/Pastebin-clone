@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post" action="/">
+        <label for="exampleFormControlInput1">Give a title to your paste!</label>
+        <input type="text" name="title" class="form-control" id="exampleFormControlInput1">
+
+        <label for="exampleFormControlTextarea1">Paste your text below</label>
+        <textarea type="text" name="text" class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+        <br>
+        <button type="submit" class="btn btn-primary">Paste</button>
+        <br>
+        <a href="/pastes">Go to your pastes</a>
+    </form>
+</body>
+
+</html>
